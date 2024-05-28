@@ -1,0 +1,233 @@
+body{
+    /* Margen predeterminado de las páginas web */
+ margin: 0%;
+   /* Margen pa dentro (padding) */
+ padding: 0%; 
+ /* Tamaño de fuente  */
+ font-size: 12px;
+ /* Tipografía */
+ font-family: Arial, Helvetica, sans-serif;
+
+
+}
+/* ******************************************************************************************************************
+ ****************************************************NAVEGACIÓN************************************************/ 
+header{
+    
+    /* Width=anchura */
+    width:100%;
+    height: 55px;
+    
+}
+header nav{
+    display:flex;
+    justify-content: flex-end;
+
+    /* Mover mi nav a la derecha */
+}
+
+header nav .nav-right-section{
+/* Eliminar las viñetas */
+list-style: none;
+width: 250px;
+height: 55px;
+
+/* Hacemos al elemento flexible */
+display: flex;
+justify-content: space-between;
+align-items: center;
+height: auto;
+}
+
+.nav-right-section a {
+    text-decoration:none;
+    color: rgba(0, 0, 0, .87);
+
+}
+
+   
+
+nav .nav-right-section .menu{
+    background-image: url(https://img.icons8.com/ios-glyphs/90/000000/circled-menu.png);
+    width: 20px;
+    height: 20px;
+    /*  Tamaño de la imágen de fondo - contenida  */
+    background-size: contain;
+    background-repeat: no-repeat ;
+    
+
+}
+nav .nav-right-section img{
+    /* Margin-right margen derecha y hacer espacio a la foto */
+    margin-right: 20px;
+    max-width: 100%;
+    border-radius: 100%;
+    height: 33px;
+    
+}
+/* **************************************************************************************************************************+ */
+/* **************************************************************************MAIN*************************** */
+main{
+    margin-top: 108px;
+  text-align:center;
+
+}
+main .main-logo{
+   
+    width: 500px;
+    /* PROPIEDAD VALOR1 VALOR2  */
+    /* PROPIEDAD: VERTICAL HORIZONTAL  */
+    /* CENTRAR MI ELEMENTO */
+    margin:0 auto;
+    margin-bottom: 40px;
+}
+main .main-logo img{
+    /* EDITAR SU TAMAÑO */
+    height: 92px;
+}
+
+/* INPUT SECTION main  */
+main .main-input
+{
+    width: 500px;
+    /* Margin auto es para centrar mi elemento en la pantalla 
+    sin importar el tamaño de la pantalla */
+    margin:0 auto
+    /* Agregar margen inferior  */
+    
+}
+main .main-input-container{
+    
+    width: 500px;
+    /* BORDE DE COLOR : ANCHURA DE LÍNEA, 2: ESTILO, 3: COLOR  */
+    border: 1px solid #dfe1e5;
+    border-radius: 100px;
+    
+}
+main .main-input input{
+    height: 40px;
+    border:none;
+    outline:none;
+    width: 400px;
+}
+main .main-input .search-icon{
+    background-image:url(https://seekicon.com/free-icon-download/search_20.svg);
+    background-size: contain;
+    background-position: center;
+    padding-left: 10px;
+    background-repeat: no-repeat;
+    width: 25px;
+    height: 25px;
+    margin-right:15px;
+}
+
+main .main-input .micro-icon{
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Google_mic.svg/726px-Google_mic.svg.png);
+    width: 25px;
+    height: 25px;
+    background-size: contain;
+    background-position: center;
+    padding-left: 10px;
+    background-repeat: no-repeat;
+    margin-right: 15px;
+}
+main .main-input .cam-icon{
+    background-image: url(https://static.wikia.nocookie.net/logopedia/images/2/2b/Google_Lens_2021.svg);
+    width: 25px;
+    height: 25px;
+    background-size: contain;
+    background-position: center;
+    padding-left: 10px;
+    background-repeat: no-repeat;
+    margin: right 10px;
+     
+}
+main .main-input-container:hover{
+    box-shadow: 2px 2px 2px 2px #20212447;
+    border-color:#dfe1e500 ;
+}
+/* MAIN BUTTON SECTION  */
+main .main-buttons{
+    width: 550px;
+    /* Margen vertical y horizontal */
+    margin:0 auto;
+}
+main .main-buttons div{
+    /* Alinear elementos en la misma línea */
+    display: inline;
+    
+}
+main .main-buttons button{
+    /* Separación entre input (buscador) y botones  */
+    margin-top:20px;
+    /* Este es para eliminar el borde puede ser con NONE o 0px */
+    border:none;
+    background-color: #f8f9fa;
+    height: 25px;
+    /* COLOR DE TEXTO */
+    color:#3c4043;
+   border-radius: 4px;
+   padding: 0px 15px;
+   font-size: 14px;
+   margin-right: 10px;
+
+}
+main .main-buttons button:hover{
+    color:#202124 ;
+    border: 1px solid #dadce0;
+    box-shadow: 0px 1px 1px 1px:rgba(0,0,0,.1)
+}
+
+/**********************************************************************************************************************************************************
+*****************************************************FOOTER************************************************************************************* */
+
+.main-footer{
+position: fixed;
+bottom: 0px;
+background-color: #f8f9fa;
+width: 100%;
+font-size: 14px;
+}
+
+.main-footer ul{
+    display: inline-block;
+
+}
+/* Contenedor y elemento */
+.main-footer ul li{
+    display: inline;
+}
+.main-footer ul li a{
+text-decoration: none;
+color: #3c4043;
+padding: 0px 16px 0px 0px ;
+}
+.pie-mexico{
+    padding-left: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    
+}
+.pie-pagina{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer-right{
+   padding-right: 50px;
+   
+
+   
+    
+
+ 
+}
+
+.footer-left{
+   
+    
+   
+
+
+}
